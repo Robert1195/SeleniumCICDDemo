@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverPortalAutomation", "DriverPortalAutomation.csproj", "{594F71C2-7A27-4DA2-868A-609A95D8B6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\ReportManager\Utilities.csproj", "{E6672D43-157E-49CB-89B5-DE2592CFA533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{594F71C2-7A27-4DA2-868A-609A95D8B6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594F71C2-7A27-4DA2-868A-609A95D8B6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594F71C2-7A27-4DA2-868A-609A95D8B6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594F71C2-7A27-4DA2-868A-609A95D8B6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6672D43-157E-49CB-89B5-DE2592CFA533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6672D43-157E-49CB-89B5-DE2592CFA533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6672D43-157E-49CB-89B5-DE2592CFA533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6672D43-157E-49CB-89B5-DE2592CFA533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
