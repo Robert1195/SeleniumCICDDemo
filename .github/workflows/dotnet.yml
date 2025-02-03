@@ -27,5 +27,8 @@ jobs:
       run: dotnet build --no-restore
       working-directory: ./DriverPortalAutomation
     - name: Test
-      run:  BROWSER=Chrome HEADLESS=true dotnet test --filter "Category=smoke"
+      run: | 
+        export BROWSER=chrome
+        export HEADLESS=true
+        dotnet test --filter "Category=smoke"
       working-directory: ./DriverPortalAutomation
