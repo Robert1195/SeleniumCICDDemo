@@ -26,5 +26,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
       working-directory: ./DriverPortalAutomation
-    # - name: Test
-    #   run: dotnet test --no-build --verbosity normal
+    - name: Test
+      run:  BROWSER=Chrome HEADLESS=true dotnet test --filter "Category=smoke"
+      working-directory: ./DriverPortalAutomation
